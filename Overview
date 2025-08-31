@@ -1,0 +1,45 @@
+UI/UX:
+
+1. Welcome Screen / Onboarding
+•	Email verification
+•	Password creation/verification
+•	Forgot password flow
+•	Basic user info input (e.g., name)
+•	User consent/T&C agreement
+
+2. Chat Interface
+•	Message input field
+•	Send button
+•	Message history display
+•	Timestamp for messages
+•	Loading/typing indicator
+
+3. Suggested Actions / Quick Replies
+•	Interactive button components
+
+4. User Profile / Progress Tracker
+•	User profile picture display
+•	Goal progress bar or visual chart
+•	List of completed goals/tasks
+•	Streak or consistency tracking
+•	Achievement badges or milestones
+
+5. Settings & Preferences
+•	Notification toggles (on/off)
+•	Tone/Personality selector
+•	Privacy settings/data management
+•	Account deactivation option
+•	"Log out" button
+
+6. Goal & Task Management
+•	Goal creation form
+•	Task list with checkboxes
+•	Due date picker
+•	Task priority sorting
+•	"Mark as complete" button
+
+AGENT FOR DATA COLLECTION (HIGH LEVEL):
+
+In advance: Requirement – LLM – Link generation – [human-in-the-loop]verification of links – store in DB
+Later: User input – select keyword(s) – select relevant links from DB (using ML) – web scraping – Data organising - NLP - Output 
+Feedback from user to improve the system over time.
