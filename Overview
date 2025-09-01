@@ -38,6 +38,17 @@ UI/UX:
 •	Task priority sorting
 •	"Mark as complete" button
 
+Prioritised data:
+Type: Government/Private
+Gender Specificity: Co-ed, boys-only, girls-only
+Courses Offered: A comprehensive list
+Course Types: Degree, Diploma, Certificate
+Fee Structure: Tuition fees, other charges
+Hostel Availability
+Concessions/Scholarships: For sports persons, economically weaker students, etc.
+Reservation Policies: ex: Specifically for TN students.
+Neighboring States: Identifying key institutions in states like Karnataka, Kerala, and Andhra Pradesh for comparison.
+
 AGENT FOR DATA COLLECTION (HIGH LEVEL):
 
 In advance: Requirement – LLM – Link generation – [human-in-the-loop]verification of links – store in DB
