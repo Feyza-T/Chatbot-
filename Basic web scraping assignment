@@ -1,0 +1,26 @@
+1. Setup and Libraries
+Key Python libraries for fetching and parsing data: Requests, BeautifulSoup, and Selenium for dynamic content.
+Pandas for a clean, temporary display.
+requests: To get the HTML content from the webpage.
+beautifulsoup4: To parse and navigate the HTML.
+selenium: To interact with dynamic websites (like those of Infosys, Wipro, and IBM).
+pandas: (Optional) For easy formatting of the output into a table-like structure for display.
+
+2. Design the User Interface and Scrape
+Script will prompt the user for the URL and the search keyword. The core logic:
+Open the URL: Use Selenium to open a browser and navigate to the specified job portal.
+Search: Find the search bar and input the user's keyword.
+Extract Data: Once the search results page loads, your script will locate and extract the job title, company name, and location from the HTML.
+Store Temporarily: Instead of writing to a file, you'll simply store the extracted job information in a Python list of dictionaries
+like this: job_list = [{'title': '...', 'company': '...', 'location': '...'}, ...].
+
+3. Display the Results
+Once all the jobs have been scraped and stored in your temporary job_list, loop through this list and print each job's details directly to the console.
+
+Python:
+for job in job_list:
+    print(f"Title: {job['title']}")
+    print(f"Company: {job['company']}")
+    print(f"Location: {job['location']}")
+    print("-" * 20)
+Alternatively, use Pandas to create a DataFrame, simply use the print() function on the DataFrame to display the results in a neatly formatted table. 
