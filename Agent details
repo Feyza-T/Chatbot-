@@ -2,6 +2,7 @@
 Tool: OpenAI’s GPT-3.5 (via OpenAI Playground, or free alternatives like HuggingFace Transformers in Python).
 Generate search queries and extract potential URLs based on topics/keywords.
 Implementation: Set up a script that formulates queries, uses an API like SerpAPI (has a free tier), or does direct Google/Bing searches using libraries like requests and BeautifulSoup.
+Store basic college data such as name, location etc directly in the DB.
 
 2. Human-in-the-Loop Link Verification
 Tool: A minimal Flask or Streamlit web app for humans to review generated links.
